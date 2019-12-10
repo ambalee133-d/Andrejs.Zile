@@ -34,5 +34,12 @@ The app does process the following steps:
 (5) The app runs until there are no reamining cards.
 ```
 
+App structure:
+```
+match_task.rb - is the main class, creation of a new instance of this task will start the game
+player.rb - is the Player class, which stores the number of cards player has collected during the game
+card_stack.rb - generates the stack of cards, shuffles the cards and returns top card
+```
+
 
 
